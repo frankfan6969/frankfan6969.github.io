@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Here, we import the lobster font to create the title-->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+
+    <!--We use a font degrade in the .red_text class(if lobster is not imported, monospace will be used)-->
+    <style>
+        .blue_text{
+            color: blue;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border-style: solid;
+            border-color: blue;
+            border-width: 5px;
+            border-radius: 50%;
+        }
+        
+        .red_text{
+            color: red;
+            font-family: 'Lobster', monospace;
+            font-size: 30px;
+        }
+
+        .box {
+        border: 1px solid black;
+        padding: 25px 600px 75px 600px;
+        margin: 30px 30px 30px 30px;
+        background-color: lightblue;
+      }
+
+    </style>
+
+    <title>My Personal Website</title>
+  </head>
+
+  <body>
+     <!--You can style sth by using class-->
+    <h1 class = "red_text">Welcome to my Personal Website</h1>
+    <p>Hi, my name is Kimmy and this is my personal website. I hope you enjoy exploring it!</p>
+    <ul>  
+      <li><a href="#about">About me</a></li>
+    </ul>  
+
+    <!--可以style by using id-->
+    <h2 id="about">About me</h2>
+    <!--You can style sth by using class-->
+    <p class = "blue_text">I am a software developer with a passion for creating beautiful and intuitive user experiences. 
+    I have a degree in Computer Science and have been working in the field for 5 years.</p>
+
+    <h2>Announcement</h2>
+    <!--padding: 内容部分与4个border之间的距离  上  右  下  左-->
+    <!--margin: border离四周边界的距离         上  右  下  左-->
+    <p class = "box"> Today's Lecture is canceled</p>
+
+  </body>
+</html>
+
+
+ 
